@@ -22,7 +22,7 @@ app.use(
 
 const productRoutes =
   require(
-    "./routes/productRoutes"
+    "./routes/productroutes"
   );
   const orderRoutes =
   require(

@@ -24,7 +24,7 @@ try {
 
 const res =
 await axios.get(
-"https://urban-basket-4bia.onrender.com/api/orders"
+"https://urban-basket-1-dzt0.onrender.com/api/orders"
 );
 
 setOrders(

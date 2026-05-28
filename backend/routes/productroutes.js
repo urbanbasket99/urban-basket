@@ -8,7 +8,7 @@ const router =
 
 const Product =
   require(
-    "../models/Product"
+    "../models/product"
   );
 
 // GET ALL PRODUCTS

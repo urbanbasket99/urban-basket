@@ -7,8 +7,11 @@ const mongoose =
 const cors =
   require("cors");
 
-require("dotenv")
-  .config();
+require("dotenv").config({
+  path: __dirname + "/.env",
+});
+
+console.log(process.env.MONGO_URI);
 
 const app =
   express();

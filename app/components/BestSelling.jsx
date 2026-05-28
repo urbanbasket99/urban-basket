@@ -57,7 +57,7 @@ if (
 
         const response =
           await axios.get(
-            "http://localhost:5000/api/products"
+            "https://urban-basket-4bia.onrender.com/api/products"
           );
 
         setAdminProducts(

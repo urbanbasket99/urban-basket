@@ -101,7 +101,7 @@ useState("");
 
         const response =
           await axios.get(
-            "http://localhost:5000/api/products"
+            "https://urban-basket-4bia.onrender.com/api/products"
           );
 
         setProducts(
@@ -127,7 +127,7 @@ try {
 
 const res =
 await axios.get(
-"http://localhost:5000/api/orders"
+"https://urban-basket-4bia.onrender.com/api/orders"
 );
 
 const fetchedOrders =
@@ -265,7 +265,7 @@ productStock
       ) {
 
         await axios.put(
-          `http://localhost:5000/api/products/${editingId}`,
+          `https://urban-basket-4bia.onrender.com/api/products/${editingId}`,
           productData
         );
 
@@ -278,7 +278,7 @@ productStock
         // ADD PRODUCT
         const response =
           await axios.post(
-            "http://localhost:5000/api/products",
+            "https://urban-basket-4bia.onrender.com/api/products",
             productData
           );
 
@@ -367,7 +367,7 @@ async (id) => {
   try {
 
     await axios.delete(
-      `http://localhost:5000/api/products/${id}`
+      `https://urban-basket-4bia.onrender.com/api/products/${id}`
     );
 
     setProducts(
@@ -1363,7 +1363,7 @@ order.orderId
       try {
 
         await axios.put(
-          `http://localhost:5000/api/orders/${order._id}`,
+          `https://urban-basket-4bia.onrender.com/api/orders/${order._id}`,
           {
             orderStatus:
               newStatus,
